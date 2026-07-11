@@ -87,24 +87,22 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
+              <h3>ANALYSIS</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Analyzing complex datasets to generate actionable insights, designing robust relational databases, and building interactive dashboards to support decision-making.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">SQL Server</div>
+                <div className="what-tags">Power BI</div>
+                <div className="what-tags">Excel</div>
+                <div className="what-tags">Google Sheets</div>
+                <div className="what-tags">Data Modelling</div>
+                <div className="what-tags">ETL & CTEs</div>
+                <div className="what-tags">Dax Functions</div>
+                <div className="what-tags">Power Query</div>
+                <div className="what-tags">Dashboard Design</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +126,20 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
+              <h3>AUTOMATION</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Engineering scalable automation systems to eliminate manual workflows, scripting custom integrations, and optimizing business processes using APIs.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">Google Apps Script</div>
+                <div className="what-tags">VBA</div>
+                <div className="what-tags">Sheets & Calendar APIs</div>
+                <div className="what-tags">Stored Procedures</div>
+                <div className="what-tags">Generative AI</div>
+                <div className="what-tags">Data Cleaning</div>
+                <div className="what-tags">App Script</div>
               </div>
               <div className="what-arrow"></div>
             </div>
