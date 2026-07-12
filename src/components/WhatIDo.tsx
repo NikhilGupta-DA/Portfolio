@@ -8,21 +8,33 @@ const WhatIDo = () => {
     containerRef.current[index] = el;
   };
   useEffect(() => {
+    const currentContainers = [...containerRef.current];
     if (ScrollTrigger.isTouch) {
-      containerRef.current.forEach((container) => {
+      currentContainers.forEach((container) => {
         if (container) {
           container.classList.remove("what-noTouch");
-          container.addEventListener("click", () => handleClick(container));
         }
       });
+
+      const handleBoxClick = (e: MouseEvent) => {
+        const target = e.target as HTMLElement;
+        const container = target.closest(".what-content") as HTMLDivElement;
+        if (container && currentContainers.includes(container)) {
+          handleClick(container);
+        }
+      };
+
+      const parent = document.querySelector(".what-box-in");
+      if (parent) {
+        parent.addEventListener("click", handleBoxClick as EventListener);
+      }
+
+      return () => {
+        if (parent) {
+          parent.removeEventListener("click", handleBoxClick as EventListener);
+        }
+      };
     }
-    return () => {
-      containerRef.current.forEach((container) => {
-        if (container) {
-          container.removeEventListener("click", () => handleClick(container));
-        }
-      });
-    };
   }, []);
   return (
     <div className="whatIDO">
