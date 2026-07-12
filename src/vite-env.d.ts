@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
 
-declare module "gsap-trial/SplitText" {
+declare module "gsap/SplitText" {
   export class SplitText {
     constructor(target: string | HTMLElement | Element | (string | HTMLElement | Element)[], vars?: unknown);
     chars: HTMLElement[];
@@ -11,7 +11,7 @@ declare module "gsap-trial/SplitText" {
   }
 }
 
-declare module "gsap-trial/ScrollSmoother" {
+declare module "gsap/ScrollSmoother" {
   export class ScrollSmoother {
     static create(vars: unknown): ScrollSmoother;
     static get(): ScrollSmoother;
