@@ -45,6 +45,16 @@
   font-size: 14px;
   letter-spacing: 0.2px;
 }
+.navbar-linkedin {
+  display: flex;
+  align-items: center;
+  color: #eae5ec;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.navbar-linkedin:hover {
+  color: #0077b5;
+  transform: scale(1.1);
+}
 @media only screen and (min-width: 500px) {
   .header {
     padding: 20px 0px;

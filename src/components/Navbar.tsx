@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
+import { FaLinkedin } from "react-icons/fa";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
@@ -45,8 +46,14 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
-        <a href="/#" className="navbar-title" data-cursor="disable">
-          Logo
+        <a
+          href="https://linkedin.com/in/nikhilgupta1802"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="navbar-linkedin"
+          data-cursor="disable"
+        >
+          <FaLinkedin size={26} />
         </a>
         <a
           href="mailto:nikhil.gupta.21221@gmail.com"
