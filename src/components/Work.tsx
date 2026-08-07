@@ -29,6 +29,7 @@ const projects = [
     title: "Automated Interview Scheduler",
     category: "API Integration",
     tools: "Google Apps Script, Sheets API, Calendar API, Automation",
+    impact: "Reduced interview scheduling time by 50% to 60% at Tata 1mg using this automated calendar scheduling tool.",
     image: "/images/scheduler_collage.png",
     link: "#",
   },
