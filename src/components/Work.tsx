@@ -28,7 +28,7 @@ const projects = [
     title: "Automated Interview Scheduler",
     category: "API Integration",
     tools: "Google Apps Script, Sheets API, Calendar API, Automation",
-    image: "/images/placeholder.webp",
+    image: "/images/scheduler_collage.png",
     link: "#",
   },
   {
