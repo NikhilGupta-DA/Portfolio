@@ -39,7 +39,8 @@ const projects = [
     title: "Compensation Reporting Pipeline",
     category: "Data Analytics",
     tools: "Advanced Excel, VBA, Power Query, Data Modeling",
-    image: "/images/placeholder.webp",
+    impact: "Developed a custom VBA automation tool for a Senior Manager at Tata 1mg to process and partition complex employee compensation reports based on a mapping sheet. Reduced processing time from 2 hours to 1 minute, saving over 95% of manual execution time.",
+    image: "/images/compensation_flow.png",
     link: "#",
   },
 ];
