@@ -21,7 +21,8 @@ const projects = [
     title: "Automated Bank Statement Generator",
     category: "Database / SQL",
     tools: "SQL Server, T-SQL Stored Procedures, Window Functions, Temp Tables, DATEDIFF",
-    image: "/images/placeholder.webp",
+    impact: "Built using optimized T-SQL stored procedures; dynamically retrieves and formats transaction statements by accepting Account ID and Month parameters as inputs.",
+    image: "/images/bank_statement.png",
     link: "#",
   },
   {
