@@ -6,10 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Data-driven Economics student and current Tata 1mg intern with a proven track record of building
-          automated workflows using Apps Script, VBA, and Generative AI tools. Equipped with strong SQL and
-          advanced Excel skills backed by hands-on projects, leveraging analytical problem-solving to optimize
-          business operations and drive operational efficiency.
+          Results-driven Analytics & Automation Professional with a proven record of solving complex business
+          problems at <strong>Bella Vita</strong>, <strong>Tata 1mg</strong>, and <strong>FSSAI</strong>. Expert in
+          building high-impact automated workflows and dashboards using <strong>SQL</strong>, <strong>Power BI</strong>, <strong>Excel (VBA)</strong>, and <strong>Google Apps Script</strong>.
+          Passionate about transforming raw data into actionable insights to streamline operations, optimize efficiency, and drive strategic growth.
         </p>
       </div>
     </div>
