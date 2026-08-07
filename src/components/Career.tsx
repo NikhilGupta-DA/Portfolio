@@ -15,10 +15,15 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>HR Intern</h4>
-                <h5>Tata 1mg</h5>
+                <h4>Data Analyst Intern</h4>
+                <h5>
+                  Tata 1mg{" "}
+                  <span style={{ fontSize: "14px", color: "#ccc", fontWeight: 300, display: "block", marginTop: "5px" }}>
+                    Apr 2026 – Jul 2026
+                  </span>
+                </h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2026</h3>
             </div>
             <p>
               Engineered automated interview scheduling and compensation reporting systems using Google Apps Script and APIs, cutting manual coordination time by 50–70% and turnaround time by 90%. Supported talent acquisition workflows.
@@ -27,8 +32,13 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>HR Intern</h4>
-                <h5>FSSAI</h5>
+                <h4>Data Analyst Intern</h4>
+                <h5>
+                  FSSAI{" "}
+                  <span style={{ fontSize: "14px", color: "#ccc", fontWeight: 300, display: "block", marginTop: "5px" }}>
+                    Jan 2026 – Mar 2026
+                  </span>
+                </h5>
               </div>
               <h3>2026</h3>
             </div>
@@ -40,7 +50,12 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Excel & SQL Instructor</h4>
-                <h5>PLUS-IS</h5>
+                <h5>
+                  PLUS-IS{" "}
+                  <span style={{ fontSize: "14px", color: "#ccc", fontWeight: 300, display: "block", marginTop: "5px" }}>
+                    Aug 2024 – Aug 2025
+                  </span>
+                </h5>
               </div>
               <h3>2025</h3>
             </div>
@@ -52,12 +67,17 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>BA Economics Honours</h4>
-                <h5>College of Vocational Studies</h5>
+                <h5>
+                  College of Vocational Studies{" "}
+                  <span style={{ fontSize: "14px", color: "#ccc", fontWeight: 300, display: "block", marginTop: "5px" }}>
+                    2024 – 2027
+                  </span>
+                </h5>
               </div>
-              <h3>2026</h3>
+              <h3>2027</h3>
             </div>
             <p>
-              3rd year student pursuing BA Economics Honours, focusing on data-driven economics, econometrics, and analytical problem-solving.
+              Pursuing BA Economics Honours, focusing on data-driven economics, econometrics, and analytical problem-solving.
             </p>
           </div>
           <div className="career-info-box">
@@ -66,7 +86,7 @@ const Career = () => {
                 <h4>Commerce + Maths</h4>
                 <h5>12th CBSE | 83%</h5>
               </div>
-              <h3>2023</h3>
+              <h3>2024</h3>
             </div>
             <p>
               Completed senior secondary education with a specialized focus on Commerce and Mathematics.
@@ -78,7 +98,7 @@ const Career = () => {
                 <h4>10th CBSE | 86%</h4>
                 <h5>CBSE Board</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2022</h3>
             </div>
             <p>
               Completed secondary school education under the CBSE board with strong academic performance.
