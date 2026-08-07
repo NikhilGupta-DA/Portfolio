@@ -12,7 +12,8 @@ const projects = [
     title: "Email Outreach System",
     category: "Workflow Automation",
     tools: "Google Apps Script, Sheets, Scheduled Delivery, Weekend Filtering, Follow-ups",
-    image: "/images/placeholder.webp",
+    impact: "Released ₹1.4 Crores in annual gross CTC job offers to my college in February using this automated outreach tool.",
+    image: "/images/email_collage.png",
     link: "#",
   },
   {
@@ -103,6 +104,12 @@ const Work = () => {
                 </div>
                 <h4>Tools and features</h4>
                 <p>{project.tools}</p>
+                {project.impact && (
+                  <>
+                    <h4 style={{ marginTop: "20px", color: "var(--accentColor)", fontWeight: 500 }}>Key Impact</h4>
+                    <p style={{ color: "#eae5ec" }}>{project.impact}</p>
+                  </>
+                )}
               </div>
               <WorkImage image={project.image} alt={project.title} link={project.link} />
             </div>
