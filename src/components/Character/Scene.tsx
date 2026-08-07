@@ -32,7 +32,7 @@ const Scene = () => {
         antialias: true,
       });
       renderer.setSize(container.width, container.height);
-      renderer.setPixelRatio(window.devicePixelRatio);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
       renderer.toneMapping = THREE.ACESFilmicToneMapping;
       renderer.toneMappingExposure = 1;
       currentCanvas.appendChild(renderer.domElement);
@@ -57,7 +57,7 @@ const Scene = () => {
 
       const onResize = () => {
         if (characterObj) {
-          handleResize(renderer, camera, canvasDiv, characterObj);
+          handleResize(renderer, camera, canvasDiv);
         }
       };
 
@@ -69,6 +69,7 @@ const Scene = () => {
           }
           mixer = animations.mixer;
           characterObj = gltf.scene;
+          onResize();
           scene.add(characterObj);
           headBone = characterObj.getObjectByName("spine006") || null;
           screenLight = (characterObj.getObjectByName("screenlight") as THREE.Mesh) || null;
