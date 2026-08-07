@@ -1,18 +1,7 @@
 import "./styles/SocialIcons.css";
-import { TbNotes } from "react-icons/tb";
-import HoverLinks from "./HoverLinks";
 
 const SocialIcons = () => {
-  return (
-    <div className="icons-section">
-      <a className="resume-button" href="#">
-        <HoverLinks text="RESUME" />
-        <span>
-          <TbNotes />
-        </span>
-      </a>
-    </div>
-  );
+  return null;
 };
 
 export default SocialIcons;
