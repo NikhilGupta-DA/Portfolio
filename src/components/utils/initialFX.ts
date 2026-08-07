@@ -1,6 +1,7 @@
 import { SplitText } from "gsap/SplitText";
 import gsap from "gsap";
 import { smoother } from "../Navbar";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export function initialFX() {
   document.body.style.overflowY = "auto";
@@ -48,4 +49,8 @@ export function initialFX() {
       delay: 0.1,
     }
   );
+
+  setTimeout(() => {
+    ScrollTrigger.refresh();
+  }, 200);
 }
