@@ -17,6 +17,23 @@ const Career = () => {
               <div className="career-role">
                 <h4>Data Analyst Intern</h4>
                 <h5>
+                  Bella Vita{" "}
+                  <span style={{ fontSize: "14px", color: "#ccc", fontWeight: 300, display: "block", marginTop: "5px" }}>
+                    Aug 2026 – Oct 2026
+                  </span>
+                </h5>
+              </div>
+              <h3>2026</h3>
+            </div>
+            <p>
+              Analyzed sales trends and consumer behaviors, created automated SQL queries for daily reporting, and designed Power BI dashboards to track key performance indicators.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Intern</h4>
+                <h5>
                   Tata 1mg{" "}
                   <span style={{ fontSize: "14px", color: "#ccc", fontWeight: 300, display: "block", marginTop: "5px" }}>
                     Apr 2026 – Jul 2026
@@ -32,7 +49,7 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Data Analyst Intern</h4>
+                <h4>Intern</h4>
                 <h5>
                   FSSAI{" "}
                   <span style={{ fontSize: "14px", color: "#ccc", fontWeight: 300, display: "block", marginTop: "5px" }}>
